@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "email": "vini@gmail.com",
+      "password": "$2a$10$oTvkR47flibv9tNmSzcPG.MOjQfV0dJVjo7fPd4ogw8zxSKIrCpUe",
+      "nome": "Vini Jr",
+      "permissoes": "admin",
+      "id": 7
+    },
+    {
+      "email": "fulano@email.com",
+      "password": "$2a$10$eHa3UmfeY1laphczU/BgC.ACRb9EYnueNY45Ju27ucNRDhjnjg/pq",
+      "nome": "Fulano",
+      "permissoes": "visitante",
+      "id": 9
+    }
+  ]
+}
