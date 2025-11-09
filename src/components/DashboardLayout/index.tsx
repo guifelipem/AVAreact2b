@@ -40,12 +40,12 @@ export const DashboardLayout = () => {
                     <div className="d-flex align-items-center">
                         <span className="text-white me-3">Olá, {token?.user.nome}</span>
 
-                        <a className="btn btn-outline-light btn-sm me-2" 
-                        onClick={() => {
-                            if (window.confirm("Tem certeza que deseja fazer logout?")) {
-                                navigate("/") 
-                            }
-                        }}>
+                        <a className="btn btn-outline-light btn-sm me-2"
+                            onClick={() => {
+                                if (window.confirm("Tem certeza que deseja fazer logout?")) {
+                                    navigate("/")
+                                }
+                            }}>
                             Logout
                         </a>
 
@@ -85,6 +85,11 @@ export const DashboardLayout = () => {
                         <li>
                             <a onClick={() => navigate("/usuarios")} className="text-white text-decoration-none d-block mb-2" style={{ cursor: "pointer" }}>
                                 Usuários
+                            </a>
+                        </li>
+                        <li>
+                            <a onClick={() => navigate("/clientes")} className="text-white text-decoration-none d-block mb-2" style={{ cursor: "pointer" }}>
+                                Clientes
                             </a>
                         </li>
                     </ul>

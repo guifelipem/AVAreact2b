@@ -9,6 +9,8 @@ import { Login } from '../pages/Login'
 import { Produtos } from '../pages/Produtos'
 import { Usuarios } from '../pages/Usuarios'
 import { GerenciarUsuarios } from '../pages/Usuarios/Gerenciar'
+import { Clientes } from '../pages/Clientes'
+import { GerenciarClientes } from '../pages/Clientes/Gerenciar'
 
 export const Rotas = () => {
 
@@ -25,6 +27,14 @@ export const Rotas = () => {
                 <Route
                     path={'/usuarios/:id'}
                     element={<GerenciarUsuarios />}
+                />
+                <Route
+                    path='/clientes'
+                    element={<Clientes />}
+                />
+                <Route
+                    path={'/clientes/:id'}
+                    element={<GerenciarClientes />}
                 />
                 <Route path='*' element={<h1>404</h1>} />
 

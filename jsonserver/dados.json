@@ -13,6 +13,29 @@
       "nome": "Fulano",
       "permissoes": "visitante",
       "id": 9
+    },
+    {
+      "email": "ciclano@email",
+      "password": "$2a$10$HsWnMaxitGEIdZz.9WlRd.6o2rUi8DAjAg4KuCwF22IJguZ7U5cKm",
+      "nome": "Ciclano",
+      "permissoes": "admin",
+      "id": 10
+    }
+  ],
+  "clientes": [
+    {
+      "nomeCompleto": "Maria da Silva Rodrigues",
+      "cpf": "57318350048",
+      "dataNascimento": "2000-12-01",
+      "email": "mariasilva@gmail.com",
+      "telefone": "55985623451",
+      "logradouro": "Rua das Laranjas",
+      "numero": "187",
+      "complemento": "casa amarela",
+      "bairro": "Bairro do Limoeiro",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "id": 1
     }
   ]
 }
