@@ -24,7 +24,7 @@
   ],
   "clientes": [
     {
-      "nomeCompleto": "Maria da Silva Rodrigues",
+      "nomeCompleto": "Maria da Silva Rosana",
       "cpf": "57318350048",
       "dataNascimento": "2000-12-01",
       "email": "mariasilva@gmail.com",
@@ -36,6 +36,20 @@
       "cidade": "São Paulo",
       "estado": "SP",
       "id": 1
+    },
+    {
+      "nomeCompleto": "Gisele Francisca dos Santos",
+      "cpf": "98701344080",
+      "dataNascimento": "1997-03-20",
+      "email": "giselefrancisca@email.com",
+      "telefone": "11988662211",
+      "logradouro": "Avenida 6",
+      "numero": "1523",
+      "complemento": "",
+      "bairro": "Zona 9",
+      "cidade": "Recife",
+      "estado": "PE",
+      "id": 2
     }
   ]
 }
